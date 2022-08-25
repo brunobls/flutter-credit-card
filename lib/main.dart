@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_credit_card/presenters/payment/mobile/payment_card/payment_card.dart';
+import 'package:flutter_credit_card/presenters/payment/platforms/mobile/payment_card/payment_card.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
           backgroundColor: Colors.white,
-          elevation: 0,
+          elevation: 1,
           titleTextStyle:
               TextStyle(color: Colors.black, fontWeight: FontWeight.w600),
         ),
